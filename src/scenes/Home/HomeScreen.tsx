@@ -36,7 +36,7 @@ export const HomeScreen: FunctionComponent<IHomeScreenProps> = () => {
   useLayoutEffect(() => {
     navigation.setOptions({
       headerRight: () => (
-        <TouchableOpacity testID="newproduct-search-icon" onPress={onPressLogin}>
+        <TouchableOpacity testID="getToken" onPress={onPressLogin}>
           <View style={styles.loginView}>
             <Text>Login</Text>
           </View>

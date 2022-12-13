@@ -9,7 +9,7 @@ export function* rootSaga() {
   yield take(REHYDRATE);
   yield createRequestInstance({
     driver: createDriver(fetchDriver, {
-      baseURL: 'http://localhost:8088/',
+      baseURL: 'http://10.72.161.176:8088/',
     }),
     onRequest,
     onSuccess,
